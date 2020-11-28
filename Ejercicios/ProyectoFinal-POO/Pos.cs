@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 public class ProyectoFinal_POO
 {
+    public List<Usuario> ListadeUsuario { get; set; }
     public List<Producto> ListadeProductos { get; set; }
      public List<Cliente> ListadeClientes { get; set; }
 
-    public List<Usuario> ListadeUsuario { get; set; }
     public List<Venta> ListaVenta { get; set; }
     public ProyectoFinal_POO()
     {
@@ -20,6 +20,19 @@ public class ProyectoFinal_POO
         cargarUsuario();
 
         ListaVenta = new List<Venta>();
+    }
+
+//CARGAR USUARIOS
+    private void cargarUsuario()
+    {
+        Usuario u1 = new Usuario(1, "Limny", "LL01");
+        ListadeUsuario.Add(u1);
+
+        Usuario u2 = new Usuario(2, "Josue", "JE02");
+        ListadeUsuario.Add(u2);
+        
+        Usuario u3 = new Usuario(3, "Jared", "JC03");
+        ListadeUsuario.Add(u3);
     }
 
     //CARGAR PRODUCTOS
@@ -71,19 +84,6 @@ public class ProyectoFinal_POO
         ListadeClientes.Add(c5);
     }
 
-     //CARGAR USUARIOS
-    private void cargarUsuario()
-    {
-        Usuario u1 = new Usuario(1, "Limny", "LL01");
-        ListadeUsuario.Add(u1);
-
-        Usuario u2 = new Usuario(2, "Josue", "JE02");
-        ListadeUsuario.Add(u2);
-        
-        Usuario u3 = new Usuario(3, "Jared", "JC03");
-        ListadeUsuario.Add(u3);
-
-}
 
        //LISTADO DE PRODUCTOS
  public void ListarProductos()

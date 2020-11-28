@@ -12,13 +12,13 @@ namespace Pos
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("   SISTEMA DE POS    ");
-                Console.WriteLine("Electrodomésticos J&J");
-                Console.WriteLine("*********************");
+                Console.WriteLine("    SISTEMA DE POS     ");
+                Console.WriteLine(" Electrodomésticos J&J ");
+                Console.WriteLine("***********************");
                 Console.WriteLine("");
-                Console.WriteLine("1 - Listado de Productos");
-                Console.WriteLine("2 - Listado de Clientes");
-                Console.WriteLine("3 - Listado de Usuarios");
+                Console.WriteLine("1 - Listado de Usuarios");
+                Console.WriteLine("2 - Listado de Productos");
+                Console.WriteLine("3 - Listado de Clientes");
                 Console.WriteLine("4 - Ingreso de venta");
                 Console.WriteLine("5 - Reporte de ventas");
                 Console.WriteLine("");
@@ -28,15 +28,15 @@ namespace Pos
                 switch (opcion)
                 {
                     case "1": 
-                        pos.ListarProductos();
+                        pos.ListarUsuarios();
                         break;
                     
                     case "2": 
-                        pos.ListarClientes();
+                        pos.ListarProductos();
                         break;
                     
                     case "3": 
-                        pos.ListarUsuarios();
+                        pos.ListarClientes();
                         break;
                     
                     case "4": 
