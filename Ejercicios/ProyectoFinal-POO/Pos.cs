@@ -221,7 +221,7 @@ public class ProyectoFinal_POO
         Console.WriteLine("                                                  Electrodomésticos J&J"                                                );
         Console.WriteLine("***********************************************************************************************************************");
         Console.WriteLine("");  
-        Console.WriteLine("Codigo | Fecha              |Producto       | Cantidad |Precio | Subtotal | Impuesto | Total | Cliente       | Vendedor");
+        Console.WriteLine("Codigo | Fecha              |Producto       | Cantidad |Precio | Subtotal | Impuesto | Total | Cliente       | Usuario ");
         Console.WriteLine("***********************************************************************************************************************");
         Console.WriteLine("");  
 
