@@ -28,6 +28,8 @@ namespace _12_ejercicio_clase_animales
             g.Comer();
             g.Caminar();
             g.Maullar();
+            g.Descripcion();
+            g.Tamano();
 
             Console.WriteLine(g.Nombre);
             Console.WriteLine(g.Patas);
@@ -38,6 +40,8 @@ namespace _12_ejercicio_clase_animales
             m.Habilidad= "Balancearse";
             m.Comer();
             m.Maullar();
+            m.Descripcion();
+            m.Tamano();
 
             Console.WriteLine(m.Nombre);
             Console.WriteLine(m.Patas);
@@ -50,6 +54,8 @@ namespace _12_ejercicio_clase_animales
             a.Comer();
             a.Volar();
             a.Vuelo();
+            a.Descripcion();
+            a.Tamano();
 
             Console.WriteLine(a.Nombre);
             Console.WriteLine(a.Patas);
@@ -62,6 +68,8 @@ namespace _12_ejercicio_clase_animales
             l.Comer();
             l.Volar();
             l.Hablar();
+            l.Descripcion();
+            l.Tamano();
 
             Console.WriteLine(l.Nombre);
             Console.WriteLine(l.Patas);
@@ -74,6 +82,8 @@ namespace _12_ejercicio_clase_animales
             pg.Comer();
             pg.Nadar();
             pg.Inflarse();
+            pg.Descripcion();
+            pg.Tamano();
 
             Console.WriteLine(pg.Nombre);
             Console.WriteLine(pg.NumeroAletas);

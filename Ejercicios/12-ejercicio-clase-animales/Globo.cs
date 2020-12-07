@@ -7,4 +7,25 @@ public class Globo: Peces
     {
         Console.WriteLine("Inflarse");
     }
+
+     public void Descripcion() 
+    {
+        Console.WriteLine("El pez globo es un tipo de pez muy común");
+    }
+
+     public void Tamano()
+    {
+        DescribirTamano();
+        OtroMetodo();
+    }
+
+    private void DescribirTamano() 
+    {
+        Console.WriteLine("El pez globo es un animal pequeño");
+    }
+
+    private void OtroMetodo()
+    {
+
+    }
 }

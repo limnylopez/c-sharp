@@ -7,4 +7,25 @@ public class Mono: Mamifero
     {
         Console.WriteLine("Uaa uaa uaa");
     }
+
+    public void Descripcion() 
+    {
+        Console.WriteLine("El mono es un experto en balancearse");
+    }
+
+     public void Tamano()
+    {
+        DescribirTamano();
+        OtroMetodo();
+    }
+
+    private void DescribirTamano() 
+    {
+        Console.WriteLine("El mono es un animal mediano");
+    }
+
+    private void OtroMetodo()
+    {
+
+    }
 }
